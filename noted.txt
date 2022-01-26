@@ -1,0 +1,4 @@
+1.创建 package.json
+npm install -y
+2.安装你需要的package
+npm install --save weui-miniprogram
