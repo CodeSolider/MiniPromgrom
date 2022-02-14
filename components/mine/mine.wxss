@@ -1,0 +1,48 @@
+.component_mine_wrapper{ 
+  display: flex;
+  flex-direction:row; 
+  justify-content:center;
+  padding-top: 10rpx;
+}
+.info-vip-card{
+  height: 300rpx;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(rgb(105, 105, 105) 20%, rgb(12, 12, 12) 80%);
+  border-radius: 5%; 
+}
+
+/* 头像 */
+.info-avatarImg{
+height: 100rpx;
+width: 100rpx;
+border-radius: 50%;
+border: 1rpx solid #dddddd; 
+margin-left: 50rpx;
+margin-top: 50rpx;
+}
+
+/* logo 文字 */
+.info-logo-text {
+  opacity: 0.2;
+  color: rgba(255, 255, 255, 0.5) repeat;
+  filter: alpha(opactiy=20);
+  opacity: 0.2;
+  position: fixed;
+  top: 8%;
+  left: 55%;
+  z-index: 1;
+  text-shadow: 2px 2px #dddddd;
+  letter-spacing: 1em;
+  font-size: 25rpx;
+  font-family: cursive;
+  flex: 1;
+}
+
+/* 登录文本按钮 */
+.info-login-btn-text{
+ color:white; 
+ position: fixed;
+ top: 7%; 
+ left: 31%;
+}

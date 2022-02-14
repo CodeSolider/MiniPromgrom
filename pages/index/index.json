@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "component_index":"/pages/components/index/index",
-    "component_mine":"/pages/components/mine/mine"
+    "component_index":"/components/index/index",
+    "component_mine":"/components/mine/mine"
   }
 }

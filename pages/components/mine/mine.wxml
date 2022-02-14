@@ -1,9 +1,0 @@
-<view class="component_mine_wrapper">
-  <view class="info-vip-card">
-    <text class="info-logo-icon">{{logoText}}</text>
-    <image class="info-avatarImg" src="{{avatarImg}}"></image>
-    <text class="info-login">请登录</text>
-  </view>
-  <view class="info-center">
-  </view>
-</view>

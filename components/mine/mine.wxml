@@ -1,0 +1,15 @@
+<view class="component_mine_wrapper">
+   <view class="info-vip-card">
+      <image class="info-avatarImg" src="{{avatarImg}}"></image>
+      <text class="info-login-btn-text" bindtap="onShowDialog">点击登录</text>
+      <text class="info-logo-text">{{logoText}}</text>
+   </view>
+   <!-- 用户信息授权模态框 -->
+   <component_dialog class="component_dialog" 
+   title="{{loginInfo.title}}" 
+   content="{{loginInfo.content}}"
+   loginName="{{loginInfo.loginName}}"
+   logoImg="{{loginInfo.logoImg}}" 
+   bind:confirm="onConfirm"
+   bind:cancel="onCancel"></component_dialog>
+</view>
